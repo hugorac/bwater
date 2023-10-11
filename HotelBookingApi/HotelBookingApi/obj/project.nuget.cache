@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "raytqh5bYWdkOkhNo90KhZ4wjAWVHQxJfNMUUz5HK8Zd/u+Ih93NZ4qHgOfEFq3SbeC5IC+OYowNRrnx4zAsHw==",
+  "dgSpecHash": "c13FpECt8UDueERokfB1rZhdhgT5RYeGcwD4OQpmWJwTR1G4d5FkiIYIgaicUNaTUcpysjN5q9lsvYMVAcrM4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raczk\\source\\repos\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
+  "projectFilePath": "C:\\Users\\raczk\\Documents\\Github Clones\\bwater\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raczk\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\raczk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",

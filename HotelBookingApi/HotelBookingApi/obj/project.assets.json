@@ -1025,11 +1025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raczk\\source\\repos\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
+      "projectUniqueName": "C:\\Users\\raczk\\Documents\\Github Clones\\bwater\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
       "projectName": "HotelBookingApi",
-      "projectPath": "C:\\Users\\raczk\\source\\repos\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
+      "projectPath": "C:\\Users\\raczk\\Documents\\Github Clones\\bwater\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
       "packagesPath": "C:\\Users\\raczk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raczk\\source\\repos\\HotelBookingApi\\HotelBookingApi\\obj\\",
+      "outputPath": "C:\\Users\\raczk\\Documents\\Github Clones\\bwater\\HotelBookingApi\\HotelBookingApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
