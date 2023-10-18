@@ -4,7 +4,7 @@ using HotelBookingApi.Models;
 using HotelBookingApi.Data;
 
 namespace HotelBookingApi.Controllers {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class HotelBookingController : ControllerBase {
         private readonly ApiContext _context;
@@ -27,6 +27,32 @@ namespace HotelBookingApi.Controllers {
             return new JsonResult(Ok(booking));
         }
 
-        //
+        //Get
+        [HttpGet]
+        public JsonResult Get(int id) {
+            var result = _context .Bookings.Find(id);
+            if (result == null) return new JsonResult(NotFound());
+            return new JsonResult(Ok());
+        }
+
+        //Delete
+        [HttpDelete]
+        public JsonResult Delete(int id) {
+            var result = _context.Bookings.Find(id);
+
+            if(result ==null) return new JsonResult(NotFound());
+
+            _context.Bookings.Remove(result);
+            _context.SaveChanges();
+
+            return new JsonResult(NoContent());
+        }
+
+        //Get all
+        [HttpGet("/GetAll")]
+        public JsonResult GetAll() {
+            var result = _context.Bookings.ToList();
+            return new JsonResult(Ok(result));
+        }
     }
 }

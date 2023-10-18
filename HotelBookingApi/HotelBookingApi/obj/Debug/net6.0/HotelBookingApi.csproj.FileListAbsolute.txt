@@ -41,3 +41,46 @@ C:\Users\raczk\source\repos\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\ref
 C:\Users\raczk\source\repos\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.pdb
 C:\Users\raczk\source\repos\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.genruntimeconfig.cache
 C:\Users\raczk\source\repos\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\ref\HotelBookingApi.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\appsettings.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\HotelBookingApi.exe
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\HotelBookingApi.deps.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\HotelBookingApi.runtimeconfig.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\HotelBookingApi.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\HotelBookingApi.pdb
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.csproj.AssemblyReference.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.AssemblyInfoInputs.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.AssemblyInfo.cs
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.csproj.CoreCompileInputs.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets\msbuild.HotelBookingApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets\msbuild.build.HotelBookingApi.props
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.HotelBookingApi.props
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.HotelBookingApi.props
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\scopedcss\bundle\HotelBookingApi.styles.css
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.csproj.CopyComplete
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\refint\HotelBookingApi.dll
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.pdb
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\HotelBookingApi.genruntimeconfig.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\HotelBookingApi\obj\Debug\net6.0\ref\HotelBookingApi.dll
