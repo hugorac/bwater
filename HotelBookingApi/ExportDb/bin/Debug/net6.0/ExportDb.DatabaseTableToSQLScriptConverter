@@ -1,0 +1,6 @@
+CREATE TABLE Kunden (
+KundenID int,
+Vorname nvarchar(50),
+Nachname nvarchar(50),
+Email nvarchar(100)
+);
