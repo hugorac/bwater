@@ -1,0 +1,7 @@
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.csproj.AssemblyReference.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.AssemblyInfoInputs.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.AssemblyInfo.cs
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.csproj.CoreCompileInputs.cache
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\raczk\Documents\Github Clones\bwater\HotelBookingApi\DataGeneratorApi\obj\Debug\net6.0\DataGeneratorApi.MvcApplicationPartsAssemblyInfo.cache
