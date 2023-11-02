@@ -3,29 +3,28 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-namespace ExportDb{
+namespace DataGeneratorApi{
     public class DatabaseTableToSQLScriptConverter {
-        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\raczk\\Documents\\Github Clones\\bwater\\HotelBookingApi\\ExportDb\\ProductionDb.mdf\";Integrated Security=True";
-
-
+        private string connectionString;
         public DatabaseTableToSQLScriptConverter(string connectionString) {
             this.connectionString = connectionString;
         }
 
-        public string CopyTableToSQLScript(string tableName) {
+        public string CopyTableSchemeToSQLScript(string tableName) {
             StringBuilder sqlScript = new StringBuilder();
+            StringBuilder insertScript = new StringBuilder();
 
             using (SqlConnection connection = new SqlConnection(connectionString)) {
                 connection.Open();
 
-                // Erstellen Sie einen Befehl, um die Tabellendefinition abzurufen.
+                //Tabellendefinition abzurufen
                 string query = $"SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH " +
                     $"FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{tableName}'";
 
                 using (SqlCommand command = new SqlCommand(query, connection)) {
                     using (SqlDataReader reader = command.ExecuteReader()) {
                         if (reader.HasRows) {
-                            // Erstellen Sie die CREATE TABLE-Anweisung.
+                            //CREATE TABLE-Anweisung
                             sqlScript.Append($"CREATE TABLE {tableName} (\n");
 
                             while (reader.Read()) {
@@ -43,7 +42,7 @@ namespace ExportDb{
                                 sqlScript.Append(",\n");
                             }
 
-                            // Entfernen Sie das letzte Komma und Zeilenumbruch.
+                            // Entfernt das letzte Komma und Zeilenumbruch.
                             sqlScript.Remove(sqlScript.Length - 2, 2);
 
                             sqlScript.Append("\n);");
@@ -53,16 +52,39 @@ namespace ExportDb{
                         }
                     }
                 }
-            }
+                string selectQuery = $"SELECT * FROM {tableName}";
+                SqlCommand cmd = new SqlCommand(selectQuery, connection);
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
 
-            using (StreamWriter writer = new StreamWriter(this.ToString())) {
-                // Schreiben Sie den SQL-String in die Datei
-                writer.Write(sqlScript.ToString());
+
+
+                foreach (DataRow row in dataTable.Rows) {
+                    insertScript.Append($"INSERT INTO {tableName} (");
+
+                    foreach (DataColumn column in dataTable.Columns) {
+                        string columnName = column.ColumnName;
+                        insertScript.Append($"{columnName}, ");
+                    }
+
+                    insertScript.Length -= 2; // Remove the last comma and space
+                    insertScript.AppendLine(") VALUES (");
+
+                    foreach (DataColumn column in dataTable.Columns) {
+                        object value = row[column];
+                        string valueString = (value != DBNull.Value) ? value.ToString() : "NULL";
+                        insertScript.Append($"'{valueString}', ");
+                    }
+
+                    insertScript.Length -= 2; // Remove the last comma and space
+                    insertScript.AppendLine(");");
+                }
+
             }
-            return sqlScript.ToString();
+            return $"{sqlScript.ToString()}\n{insertScript.ToString()}";
 
         }
-        
     }
 
 }

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HotelBookingApi",
+    "\\HotelBookingApi\\DataGeneratorApi",
+    "\\HotelBookingApi\\DataGeneratorApi\\Data"
   ],
-  "SelectedNode": "\\HotelBookingApi.sln",
+  "SelectedNode": "\\HotelBookingApi\\DataGeneratorApi\\Data\\ApiContext.cs",
   "PreviewInSolutionExplorer": false
 }
